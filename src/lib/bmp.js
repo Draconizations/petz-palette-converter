@@ -1,4 +1,6 @@
 // @ts-nocheck
+
+// taken from https://github.com/qianyongdong/bmp-js-browser
 class BmpDecoder {
   constructor(buffer, is_with_alpha) {
     this.pos = 0;
